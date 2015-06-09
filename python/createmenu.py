@@ -3,10 +3,10 @@
 # @Author: kidjourney
 # @Date:   2015-06-08 12:25:39
 # @Last Modified by:   kidjourney
-# @Last Modified time: 2015-06-08 16:30:40
+# @Last Modified time: 2015-06-08 22:28:30
 import requests
 import json
-access_token = "WBfPY-QseiD19p2-e_6bzdKfH_QEd7K3xQzqaAC1Gco-8H2OV_X3DGVxxkla3qCVlOd47-O39hlUlRJNTPzIb3SpvwJ32p5UiVpPrlK4E50"
+access_token = "kfiwVYjDpMwGMgqOV9YzX9NB6avgpDgMDIbjGr_LcdpMVkcb-HKYHZjbqWGskfIU8Kz479g4Aak4j9JDtWFGf9fft0iejUpPX0nXKyydkN4"
 appId = "wx0cbff294868204e0"
 secretkey = "5f71b030cab2c736c5815ee2d63ebb99"
 
@@ -17,7 +17,7 @@ data = {"button":[
         {
           "type":"view",
           "name":"Getauth",
-          "url":"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx0cbff294868204e0&redirect_uri=http://weiappdemo.sinaapp.com/userinfo.php&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"
+          "url":"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx0cbff294868204e0&redirect_uri=http://weiappdemo.sinaapp.com/userpage.php&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect"
         },
         {
           "type":"view",
